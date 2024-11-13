@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
   margin: 0;
@@ -192,4 +193,64 @@ button.toggle:focus {
     opacity: 0;
     transform: scale(20);
   }
+=======
+:root {
+  --bg: #282c34;
+  --header: #fff;
+  --link: #61dafb;
+  --text: hsla(0, 0%, 100%, 0.88);
+}
+
+body {
+  margin: 0;
+  font-family: "Merriweather", "Georgia", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--bg);
+  color: var(--text);
+}
+
+h1,
+h3 {
+  font-size: 2em;
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+}
+
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2.5rem 1rem;
+  max-width: 700px;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+aside {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+aside img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  background-color: black;
+}
+
+article {
+  margin-bottom: 3rem;
+}
+
+article p {
+  margin-top: 0.25rem;
+}
+
+article h3 {
+  color: var(--link);
+  margin-bottom: 0rem;
+>>>>>>> 5e4028ccd6d6e547ba9f0f91ba3988816407f013
 }

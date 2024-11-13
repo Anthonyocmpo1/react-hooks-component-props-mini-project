@@ -1,7 +1,17 @@
 {
+<<<<<<< HEAD
   "name": "react-hooks-state-events-mini-project",
   "version": "0.1.0",
   "private": true,
+=======
+  "name": "react-hooks-component-props-mini-project",
+  "version": "0.1.0",
+  "private": true,
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"    }
+  },
+>>>>>>> 5e4028ccd6d6e547ba9f0f91ba3988816407f013
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

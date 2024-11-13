@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react";
 import CategoryFilter from "./CategoryFilter";
 import NewTaskForm from "./NewTaskForm";
@@ -42,6 +43,18 @@ function App() {
       <NewTaskForm categories={CATEGORIES} onTaskFormSubmit={handleTaskFormSubmit} />
       {/* Pass filtered tasks and onDelete to TaskList */}
       <TaskList tasks={filteredTasks} onDelete={handleTaskDelete} />
+=======
+import React from "react";
+import blogData from "../data/blog";
+
+console.log(blogData);
+
+function App() {
+  return (
+    <div className="App">
+      You're on your own from here! Follow the deliverables; test things out in
+      the browser as you write your code; and good luck!
+>>>>>>> 5e4028ccd6d6e547ba9f0f91ba3988816407f013
     </div>
   );
 }
